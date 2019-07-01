@@ -2,7 +2,7 @@ package movePoo;
 
 public class MovablePoint implements Movable
 {
-	 int x;
+	int x;
 	int y;
 	int xSpeed;
 	int ySpeed;
@@ -30,11 +30,11 @@ public void moveDown() {
 
 
 public void moveLeft() {
-	this.x += xSpeed;	
+	this.x -= xSpeed;	
 }
 
 public void moveRight() {
-	 this.x -= xSpeed;	
+	 this.x += xSpeed;	
 }
 
 }
